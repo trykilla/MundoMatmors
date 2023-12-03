@@ -351,10 +351,12 @@
     "criteria": {
       "minecraft:pillager": "2023-12-02 00:50:08 +0100",
       "minecraft:skeleton": "2023-12-01 01:02:40 +0100",
+      "minecraft:enderman": "2023-12-03 14:52:34 +0100",
       "minecraft:spider": "2023-12-03 00:40:50 +0100",
       "minecraft:zombie": "2023-12-01 01:37:06 +0100",
       "minecraft:creeper": "2023-12-01 01:48:09 +0100",
       "minecraft:drowned": "2023-12-01 18:40:21 +0100",
+      "minecraft:zombie_villager": "2023-12-03 15:38:57 +0100",
       "minecraft:slime": "2023-12-01 02:19:03 +0100"
     },
     "done": false
@@ -2157,33 +2159,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/melon_seeds": {
+  "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
-      "has_melon": "2023-12-03 00:50:23 +0100"
+      "has_glow_ink_sac": "2023-12-02 23:59:54 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/detector_rail": {
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
     "criteria": {
-      "has_rail": "2023-12-03 02:04:30 +0100"
+      "has_cornflower": "2023-12-03 00:00:05 +0100"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/dye_blue_wool": {
     "criteria": {
       "has_needed_dye": "2023-12-03 00:00:10 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_leggings": {
-    "criteria": {
-      "has_diamond": "2023-12-03 01:56:56 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/glistering_melon_slice": {
-    "criteria": {
-      "has_melon": "2023-12-03 00:50:23 +0100"
     },
     "done": true
   },
@@ -2199,27 +2189,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/golden_axe": {
-    "criteria": {
-      "has_gold_ingot": "2023-12-03 00:50:49 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/golden_pickaxe": {
-    "criteria": {
-      "has_gold_ingot": "2023-12-03 00:50:49 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_blue_carpet": {
     "criteria": {
       "has_needed_dye": "2023-12-03 00:00:10 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/brown_dye": {
-    "criteria": {
-      "has_cocoa_beans": "2023-12-03 00:50:18 +0100"
     },
     "done": true
   },
@@ -2229,15 +2201,63 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/diamond_sword": {
+  "minecraft:recipes/building_blocks/dye_blue_bed": {
     "criteria": {
-      "has_diamond": "2023-12-03 01:56:56 +0100"
+      "has_needed_dye": "2023-12-03 00:00:10 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/jukebox": {
+  "minecraft:recipes/brewing/cauldron": {
     "criteria": {
-      "has_diamond": "2023-12-03 01:56:56 +0100"
+      "has_water_bucket": "2023-12-03 00:38:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2023-12-03 00:47:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2023-12-03 00:50:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2023-12-03 00:50:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2023-12-03 00:50:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2023-12-03 00:50:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2023-12-03 00:50:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2023-12-03 00:50:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2023-12-03 00:50:49 +0100"
     },
     "done": true
   },
@@ -2253,33 +2273,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/diamond_chestplate": {
-    "criteria": {
-      "has_diamond": "2023-12-03 01:56:56 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_torch": {
-    "criteria": {
-      "has_redstone": "2023-12-03 00:50:54 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2023-12-03 00:50:49 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/clock": {
-    "criteria": {
-      "has_redstone": "2023-12-03 00:50:54 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_helmet": {
-    "criteria": {
-      "has_diamond": "2023-12-03 01:56:56 +0100"
     },
     "done": true
   },
@@ -2295,39 +2291,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dropper": {
-    "criteria": {
-      "has_redstone": "2023-12-03 00:50:54 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/glow_item_frame": {
-    "criteria": {
-      "has_glow_ink_sac": "2023-12-02 23:59:54 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/orange_dye_from_torchflower": {
-    "criteria": {
-      "has_torchflower": "2023-12-03 02:00:45 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/melon": {
-    "criteria": {
-      "has_melon": "2023-12-03 00:50:23 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2023-12-03 00:50:49 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_birch_wood": {
-    "criteria": {
-      "has_log": "2023-12-03 01:42:20 +0100"
     },
     "done": true
   },
@@ -2337,69 +2303,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2023-12-03 00:38:52 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_pickaxe": {
-    "criteria": {
-      "has_diamond": "2023-12-03 01:56:56 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/enchant_item": {
-    "criteria": {
-      "enchanted_item": "2023-12-03 01:22:48 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_block": {
-    "criteria": {
-      "has_redstone": "2023-12-03 00:50:54 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2023-12-03 00:50:49 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/blue_dye_from_cornflower": {
-    "criteria": {
-      "has_cornflower": "2023-12-03 00:00:05 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_blue_bed": {
-    "criteria": {
-      "has_needed_dye": "2023-12-03 00:00:10 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/birch_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2023-12-03 01:42:20 +0100"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/plant_seed": {
-    "criteria": {
-      "wheat": "2023-12-03 00:47:13 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diamond_block": {
-    "criteria": {
-      "has_diamond": "2023-12-03 01:56:56 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cookie": {
-    "criteria": {
-      "has_cocoa": "2023-12-03 00:50:18 +0100"
     },
     "done": true
   },
@@ -2409,21 +2315,123 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2023-12-03 00:50:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2023-12-03 00:50:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2023-12-03 00:50:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2023-12-03 00:50:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2023-12-03 00:50:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2023-12-03 00:50:54 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2023-12-03 00:50:54 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_hoe": {
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2023-12-03 00:50:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2023-12-03 00:50:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2023-12-03 01:22:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2023-12-03 01:42:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2023-12-03 01:42:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2023-12-03 01:56:56 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/activator_rail": {
+  "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
-      "has_rail": "2023-12-03 02:04:30 +0100"
+      "has_diamond": "2023-12-03 01:56:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2023-12-03 01:56:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2023-12-03 01:56:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2023-12-03 01:56:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2023-12-03 01:56:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2023-12-03 01:56:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2023-12-03 01:56:56 +0100"
     },
     "done": true
   },
@@ -2445,15 +2453,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+  "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
-      "has_gold_ingot": "2023-12-03 00:50:49 +0100"
+      "has_diamond": "2023-12-03 01:56:56 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/tools/compass": {
+  "minecraft:recipes/misc/orange_dye_from_torchflower": {
     "criteria": {
-      "has_redstone": "2023-12-03 00:50:54 +0100"
+      "has_torchflower": "2023-12-03 02:00:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2023-12-03 02:04:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2023-12-03 02:04:30 +0100"
     },
     "done": true
   },
@@ -2463,21 +2483,117 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/golden_leggings": {
+  "exlinefurniture:recipes/misc/iron": {
     "criteria": {
-      "has_gold_ingot": "2023-12-03 00:50:49 +0100"
+      "has_ingredient": "2023-12-03 14:32:50 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/piston": {
+  "minecraft:story/deflect_arrow": {
     "criteria": {
-      "has_redstone": "2023-12-03 00:50:54 +0100"
+      "deflected_projectile": "2023-12-03 14:52:25 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/combat/diamond_boots": {
+  "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
-      "has_diamond": "2023-12-03 01:56:56 +0100"
+      "has_book": "2023-12-03 15:23:18 +0100"
+    },
+    "done": true
+  },
+  "packedup:recipes/misc/iron_from_basic": {
+    "criteria": {
+      "recipe_condition": "2023-12-03 14:30:31 +0100"
+    },
+    "done": true
+  },
+  "exlinefurniture:recipes/misc/bone": {
+    "criteria": {
+      "has_ingredient": "2023-12-03 14:55:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2023-12-03 14:40:41 +0100"
+    },
+    "done": true
+  },
+  "packedup:recipes/misc/copper_from_basic": {
+    "criteria": {
+      "recipe_condition": "2023-12-03 14:30:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2023-12-03 15:47:47 +0100"
+    },
+    "done": true
+  },
+  "packedup:recipes/misc/basic_from_chest": {
+    "criteria": {
+      "recipe_condition": "2023-12-03 14:29:03 +0100"
+    },
+    "done": true
+  },
+  "exlinefurniture:recipes/misc/spruce": {
+    "criteria": {
+      "has_ingredient": "2023-12-03 14:31:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2023-12-03 15:23:18 +0100"
+    },
+    "done": true
+  },
+  "packedup:basic_backpack": {
+    "criteria": {
+      "has_backpack": "2023-12-03 14:30:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2023-12-03 15:23:18 +0100"
+    },
+    "done": true
+  },
+  "exlinefurniture:recipes/misc/rotten_flesh": {
+    "criteria": {
+      "has_ingredient": "2023-12-03 14:53:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2023-12-03 15:23:18 +0100"
+    },
+    "done": true
+  },
+  "exlinefurniture:recipes/misc/stone": {
+    "criteria": {
+      "has_ingredient": "2023-12-03 14:25:36 +0100"
+    },
+    "done": true
+  },
+  "exlinefurniture:recipes/misc/oak": {
+    "criteria": {
+      "has_ingredient": "2023-12-03 14:25:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2023-12-03 14:40:41 +0100"
+    },
+    "done": true
+  },
+  "exlinefurniture:recipes/misc/spidereye": {
+    "criteria": {
+      "has_ingredient": "2023-12-03 15:25:30 +0100"
     },
     "done": true
   },
