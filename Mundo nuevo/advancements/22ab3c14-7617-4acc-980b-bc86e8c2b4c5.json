@@ -234,12 +234,15 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2023-12-03 01:20:11 +0100",
       "apple": "2023-12-02 01:45:16 +0100",
+      "bread": "2023-12-03 01:02:31 +0100",
       "cooked_chicken": "2023-12-01 18:28:15 +0100",
       "rotten_flesh": "2023-12-01 17:14:18 +0100",
       "cooked_mutton": "2023-12-01 17:29:10 +0100",
       "cooked_beef": "2023-12-01 23:59:47 +0100",
       "baked_potato": "2023-12-01 18:40:40 +0100",
+      "beef": "2023-12-03 02:04:02 +0100",
       "melon_slice": "2023-12-01 19:21:13 +0100",
       "porkchop": "2023-12-01 17:19:42 +0100",
       "carrot": "2023-12-02 02:17:41 +0100"
@@ -1852,6 +1855,36 @@
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2023-12-02 02:52:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2023-12-03 00:15:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2023-12-03 00:58:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2023-12-03 01:35:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2023-12-03 00:58:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2023-12-03 01:02:08 +0100"
     },
     "done": true
   },
